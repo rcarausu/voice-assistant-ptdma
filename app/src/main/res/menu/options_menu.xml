@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_item"
+        android:icon="@drawable/microphone_icon_white"
+        app:showAsAction="always"
+        android:title="@string/voice"/>
+    <item
+        android:id="@+id/todo_item"
+        android:icon="@drawable/todo_icon"
+        app:showAsAction="always"
+        android:title="@string/to_do"/>
+    <item
+        android:id="@+id/help_item"
+        android:title="Help"/>
+</menu>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Use the top right menu to navigate between the voice and to-do activities.</p>
+
+<h2>Main screen</h2>
+<p>The last query executed will be displayed on a card, <strong>tap it</strong> to re-execute it.</p>
+<p>Cards will be created for location and weather queries, long tap to remove them.</p>
+
+<h2>To-do list</h2>
+<p>Add items by using the <i>add</i> button.</p>
+<p>Long tap an item to remove it.</p>
+<p>Use the <i>clear</i> button to remove all items.</p>
+
+<h2>Voice commands</h2>
+<p>Activate voice commands by tapping the microphone icon in the main view.</p>
+
+<h4>Command - <i>Help</i></h4>
+<p>
+    For example: <i>"Open help"</i> or <i>"Help"</i>
+</p>
+<p>Opens this screen.</p>
+
+<h3>Settings</h3>
+
+<h4>Command - <i>Show default location</i></h4>
+
+<p><i>Shows the default location for weather forecasts.</i></p>
+
+<h4>Command - <i>Set default location to {location}</i></h4>
+
+<p>
+    For example: <i>"Set default location to <strong>Barcelona, Spain.</strong>"</i>
+</p>
+<p>
+    Sets the default location for weather queries, if this value is not specified,
+    the weather service will use the device location to retrieve forecasts.
+    Sometimes the service needs more information for a given city,
+    in that case specifying the country will help.
+</p>
+<p>
+    If location permission is not granted, it will use Barcelona as default location
+    for test purposes.
+</p>
+
+
+<h4>Command - <i>Remove default location</i></h4>
+<p>
+    Removes the default location for weather queries.
+</p>
+
+<h4>Command - <i>Location</i></h4>
+<p>
+    For example: <i>"Show me my location"</i>
+</p>
+
+<p>
+    Shows a card with current latitude, longitude, address and city.
+</p>
+<p>
+    It will show last known location if GPS not activated and current one if it is.
+</p>
+<p>
+    It requires location permissions to work.
+</p>
+
+<h4>Command - <i>Calendar</i> or <i>Event</i></h4>
+<p>
+    For example: <i>"Open calendar"</i> or <i>"Add new event"</i>
+</p>
+<p>
+    Opens calendar app to add a new event.
+</p>
+<p>It requires calendar permissions to work</p>
+
+<h4>Command - <i>To do</i></h4>
+<p>
+    For example: <i>"Open todo list"</i>, <i>"To do"</i>
+</p>
+<p>
+
+</p>
+
+<h4>Command - <i>Weather</i></h4>
+<p>
+    For example: <i>"Show me the weather"</i>, <i>"Weather"</i> or <i>"Current weather"</i>
+</p>
+
+<p>Displays the current weather</p>
+<p>If default location is set, it will display the current weather for that location.
+If it's not, it will display current weather for last known location, or current location
+if GPS is activated.</p>
+<p>If location permissions are not granted and default location is not set, it will display
+weather for Barcelona for demo purposes.</p>
+
+<h4>Command - <i>Weather tomorrow</i></h4>
+<p>
+    For example: <i>"Show me the weather for tomorrow"</i>, <i>"Weather tomorrow"</i>
+</p>
+
+<p>Displays the weather forecast for tomorrow</p>
+<p>If default location is set, it will display the forecast for that location.
+    If it's not, it will show forecast for last known location, or current location
+    if GPS is activated.</p>
+<p>If location permissions are not granted and default location is not set, it will display
+    forecast for Barcelona for demo purposes.</p>
+
+<footer style="font-size:14px; color:blue;">
+    Author: Robert Carausu (robertcarausu@gmail.com)
+</footer>
+
+
+</body>
+</html>

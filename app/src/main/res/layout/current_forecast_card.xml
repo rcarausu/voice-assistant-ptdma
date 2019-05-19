@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forecastCard"
+    android:layout_width="340dp"
+    android:layout_height="80dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/currentForecastIcon"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_clear_day"/>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/currentForecastTemperature"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="Temperature: NA ºC" />
+                <TextView
+                    android:id="@+id/currentForecastHumidity"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="Relative Humidity: NA" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/currentForecastSummary"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="Summary: NA" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

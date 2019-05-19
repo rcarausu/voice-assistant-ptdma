@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Voice Assistant</string>
+    <string name="default_query_message">There are no previous queries, to perform one simply tap the microphone icon below</string>
+    <string name="queries_title">Last queries</string>
+    <string name="add">Add</string>
+    <string name="todo_hint">Enter todo here</string>
+    <string name="clear">Clear</string>
+    <string name="voice">Voice</string>
+    <string name="to_do">To-do</string>
+    <string name="location">Location</string>
+    <string name="calendar">Calendar</string>
+    <string name="weather">Weather</string>
+    <string name="current_forecast_title">Weather Forecast (today)</string>
+    <string name="tomorrow_forecast_title">Weather Forecast (tomorrow)</string>
+    <string name="forecast_error">There was a problem getting the forecast, please try again later</string>
+    <string name="location_title">LOCATION</string>
+    <string name="location_error">Couldn\'t retrieve location, please try again</string>
+    <string name="recognition_error">Sorry I didn\'t understand that</string>
+    <string name="permissions_error">Sorry, but the app doesn\'t have permissions to access this feature. If you want to use the feature, please reinstall the application and grant the requested permission </string>
+    <string name="weather_example_toast">Location permissions are not granted, the weather forecast will be displayed for default location (Barcelona, Spain)</string>
+    <string name="default_location_change_error">Could not set location, please specify country</string>
+    <string name="last_location_unknown_error">Last location is unknown, please activate GPS</string>
+</resources>
